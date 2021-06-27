@@ -3,7 +3,7 @@ input.onButtonPressed(Button.A, function () {
     HttpMethod.GET,
     "api.thingspeak.com",
     80,
-    "/update?api_key=M69ZVWEMWTMK9HHK&filed1=" + Dice
+    "/update?api_key=M69ZVWEMWTMK9HHK&fieldd1=" + Dice
     )
     basic.showIcon(IconNames.Yes)
 })
