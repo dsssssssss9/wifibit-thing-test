@@ -13,7 +13,7 @@ input.onButtonPressed(Button.B, function () {
 })
 let Dice = 0
 WiFiBit.connectToWiFiBit()
-WiFiBit.connectToWiFiNetwork("XHsc40000", "Ncc1701a")
+WiFiBit.connectToWiFiNetwork("XHsc40000", "ncc1701a")
 basic.showIcon(IconNames.Heart)
 basic.forever(function () {
 	
