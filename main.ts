@@ -14,7 +14,8 @@ input.onButtonPressed(Button.B, function () {
 let Dice = 0
 WiFiBit.connectToWiFiBit()
 WiFiBit.connectToWiFiNetwork("XHsc40000", "ncc1701a")
-basic.showIcon(IconNames.Heart)
+WiFiBit.executeAtCommand("ATE0", 1000)
+basic.showIcon(IconNames.Happy)
 basic.forever(function () {
 	
 })
